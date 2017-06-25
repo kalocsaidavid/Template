@@ -1,0 +1,12 @@
+$petList.size() Pets on Sale!
+      
+What a cool list is below:
+    
+#set( $count = 1 )  
+#foreach( $pet in $petList )
+$count
+$pet.name
+$pet.price
+#set( $count = $count + 1 )
+#end
+      
